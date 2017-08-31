@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "brace-style": [
+      "error",
+      "stroustrup"
+    ],
+    "camelcase": "warn",
+    "comma-spacing": "warn",
+    "curly": [
+      "error",
+      "all"
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "key-spacing": "warn",
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "max-len": "warn",
+    "max-nested-callbacks": "warn",
+    "no-console": "warn",
+    "no-trailing-spaces": "warn",
+    "no-undef": "off",
+    "quotes": [
+      "warn",
+      "single",
+      { "avoidEscape": true }
+    ],
+    "semi": [
+      "warn",
+      "always"
+    ],
+    "space-in-parens": "warn",
+    "no-unused-labels": "warn",
+    "no-unused-vars": "warn"
+  }
+}

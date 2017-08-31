@@ -1,0 +1,30 @@
+{
+  "name": "rails-validator",
+  "version": "1.0.0",
+  "description": "Validate forms using rails-ujs",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moser-inc/rails-validator.git"
+  },
+  "keywords": [
+    "rails",
+    "validation",
+    "forms"
+  ],
+  "author": "Greg Woods",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moser-inc/rails-validator/issues"
+  },
+  "homepage": "https://github.com/moser-inc/rails-validator#readme",
+  "dependencies": {
+    "rails-ujs": "^5.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0"
+  }
+}
