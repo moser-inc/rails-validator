@@ -3,8 +3,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    'bundle': './lib/index.js',
-    'bundle.min': './lib/index.js'
+    'rails-validator': './lib/index.js',
+    'rails-validator.min': './lib/index.js'
   },
   devtool: 'source-map',
   output: {
