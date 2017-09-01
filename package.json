@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/moser-inc/rails-validator#readme",
   "dependencies": {
-    "rails-ujs": "^5.1.3",
-    "title-case": "^2.1.1"
+    "case": "^1.5.3",
+    "rails-ujs": "^5.1.3"
   },
   "devDependencies": {
     "babel": "^6.23.0",
