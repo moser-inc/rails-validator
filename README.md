@@ -13,7 +13,7 @@ yarn add rails-validator
 And load it in your javascript:
 
 ```javascript
-import 'rails-validator'
+import 'rails-validator/dist/rails-validator'
 import Rails from 'rails-ujs'
 Rails.start()
 ```
