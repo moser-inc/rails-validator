@@ -10,12 +10,19 @@ Install the module:
 yarn add rails-validator
 ```
 
-And load it in your javascript:
+Import it in your javascript (es6):
 
 ```javascript
 import 'rails-validator/dist/rails-validator'
 import Rails from 'rails-ujs'
 Rails.start()
+```
+
+Or require the files in the asset pipeline:
+
+```javascript
+//= require rails-validator/dist/rails-validator
+//= require rails-ujs
 ```
 
 ## Usage
@@ -33,17 +40,6 @@ Create forms with `data-remote=true` to enable the ujs.
 <form action="/contact" data-remote="true" data-errors="inline" data-success="/thank-you">
 </form>
 ```
-
-## Build for es2015
-
-To use this code in an es2015 environment (i.e.: [asset pipeline](http://guides.rubyonrails.org/asset_pipeline.html)), run the build script.
-
-```shell
-yarn install
-yarn build
-```
-
-Then copy the output of `dist/` into your application.
 
 ## JSON Responses
 
