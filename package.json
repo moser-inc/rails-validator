@@ -1,6 +1,6 @@
 {
   "name": "rails-validator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Validate forms using rails-ujs",
   "main": "lib/index.js",
   "scripts": {
